@@ -14,7 +14,7 @@ from bokeh.models import Span
 import pandas as pd
 
 # create three normal population samples with different parameters
-df = pd.read_excel("/Volumes/Samsung_T3/MDC/LabValidationPlots/HC_Jenny.xlsx")
+df = pd.read_excel("HC_Jenny.xlsx")
 
 # Filter out unwanted data rows
 df = df[df.tm_IU > 15]
